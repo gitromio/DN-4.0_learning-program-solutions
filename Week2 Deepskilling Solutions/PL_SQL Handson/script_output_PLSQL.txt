@@ -1,0 +1,262 @@
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.011
+
+ORA-01430: column being added already exists in table
+
+https://docs.oracle.com/error-help/db/ora-01430/Error at Line: 5 Column: 0 
+
+
+Customer 3 promoted to VIP.
+Customer 4 promoted to VIP.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.016
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.013
+
+
+Procedure SAFETRANSFERFUNDS compiled
+
+Elapsed: 00:00:00.003
+
+Error: ORA-20001: Insufficient funds in source account.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.009
+
+
+Procedure UPDATESALARY compiled
+
+Elapsed: 00:00:00.004
+
+Salary updated successfully for EmployeeID 1
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.014
+
+Error: Employee with ID 99 does not exist.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.010
+
+
+Procedure ADDNEWCUSTOMER compiled
+
+Elapsed: 00:00:00.003
+
+Error: Customer with ID 4 already exists.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.011
+
+
+Procedure PROCESSMONTHLYINTEREST compiled
+
+Elapsed: 00:00:00.004
+
+Monthly interest applied to all Savings accounts.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.010
+
+
+Procedure UPDATEEMPLOYEEBONUS compiled
+
+Elapsed: 00:00:00.004
+
+Bonus applied to 1 employee(s) in department "IT".
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.012
+
+
+Procedure TRANSFERFUNDS compiled
+
+Elapsed: 00:00:00.004
+
+Transferred 300$ from Account 2 to Account 1
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.011
+
+
+Function CALCULATEAGE compiled
+
+Elapsed: 00:00:00.003
+
+
+Function CALCULATEMONTHLYINSTALLMENT compiled
+
+Elapsed: 00:00:00.019
+
+
+Function HASSUFFICIENTBALANCE compiled
+
+Elapsed: 00:00:00.006
+
+Account has sufficient balance.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.088
+
+
+Trigger UPDATECUSTOMERLASTMODIFIED compiled
+
+Elapsed: 00:00:00.022
+
+
+1 row updated.
+
+Elapsed: 00:00:00.005
+
+ORA-00955: name is already used by an existing object
+
+https://docs.oracle.com/error-help/db/ora-00955/Error at Line: 4 Column: 0 
+
+
+
+Trigger LOGTRANSACTION compiled
+
+Elapsed: 00:00:00.018
+
+ORA-00001: unique constraint (SQL_6DHXB41FWAEB54ZOW7SRW7J8DO.SYS_C002445466) violated on table SQL_6DHXB41FWAEB54ZOW7SRW7J8DO.TRANSACTIONS columns (TRANSACTIONID)
+ORA-03301: (ORA-00001 details) row with column values (TRANSACTIONID:3) already exists
+
+https://docs.oracle.com/error-help/db/ora-00001/Error at Line: 5 Column: 0 
+
+
+
+Trigger CHECKTRANSACTIONRULES compiled
+
+Elapsed: 00:00:00.021
+
+ORA-20002: Insufficient balance for withdrawal.
+ORA-06512: at "SQL_6DHXB41FWAEB54ZOW7SRW7J8DO.CHECKTRANSACTIONRULES", line 15
+ORA-04088: error during execution of trigger 'SQL_6DHXB41FWAEB54ZOW7SRW7J8DO.CHECKTRANSACTIONRULES'
+
+https://docs.oracle.com/error-help/db/ora-20002/Error at Line: 5 Column: 0 
+
+
+--- Monthly Transaction Statements ---
+Customer: John D. Doe | Account: 1 | Date: 27-JUN-2025 | Type: Deposit | Amount: $200
+Customer: John D. Doe | Account: 1 | Date: 27-JUN-2025 | Type: Deposit | Amount: $400
+Customer: John D. Doe | Account: 1 | Date: 27-JUN-2025 | Type: Deposit | Amount: $500
+Customer: John D. Doe | Account: 1 | Date: 27-JUN-2025 | Type: Deposit | Amount: $5000000
+Customer: Jane Smith | Account: 2 | Date: 27-JUN-2025 | Type: Withdrawal | Amount: $300
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.010
+
+Annual fee of $100 deducted from Account 1
+Annual fee of $100 deducted from Account 2
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.009
+
+Loan 1 interest updated to 5.5%
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.009
+
+
+
+Package CUSTOMERMANAGEMENT compiled
+
+Elapsed: 00:00:00.003
+
+
+Package Body CUSTOMERMANAGEMENT compiled
+
+Elapsed: 00:00:00.004
+
+Error: Customer ID already exists.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.013
+
+Customer updated: Emily A. Clark
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.009
+
+
+Package EMPLOYEEMANAGEMENT compiled
+
+Elapsed: 00:00:00.003
+
+
+Package Body EMPLOYEEMANAGEMENT compiled
+
+Elapsed: 00:00:00.004
+
+Error: Employee ID already exists.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.009
+
+Employee updated.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.007
+
+
+Package ACCOUNTOPERATIONS compiled
+
+Elapsed: 00:00:00.003
+
+
+Package Body ACCOUNTOPERATIONS compiled
+
+Elapsed: 00:00:00.005
+
+Account opened successfully.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.007
+
+Account closed successfully.
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.008
